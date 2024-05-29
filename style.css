@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: aliceblue;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: aliceblue;
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(51, 205, 205);
+}
+
+.home {
+    height: 100vh;
+    background: url('Image4.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.homecontent {
+    max-width: 600px;
+}
+
+.homecontent h1 {
+    font-size: 50px;
+}
+
+.homecontent h3 {
+    font-size: 30px;
+    color: aqua;
+}
+
+.homecontent p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.homecontent .box {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 50px;
+}
+
+.box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background-color: transparent;
+    border: 1.5px solid aqua;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aqua;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.box a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.home-logo {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-logo a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1.5px solid aqua;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+}
+
+.home-logo a:hover {
+    background-color: aqua;
+    color: black;
+}
